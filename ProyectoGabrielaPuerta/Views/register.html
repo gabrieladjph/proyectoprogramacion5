@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Task Your Life</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content=Task your Life">
+		<link rel="stylesheet" href="../Styles/style.css">
+	<img src="http://www.brandemia.org/sites/default/files/inline/images/google_task_logo.jpg"
+	width="280"
+	height="240">
+
+		
+  </head>  
+  <body>
+	  <main>
+
+  <div class="container">
+    <header>
+
+		<div class="titulo"><h1>Registro</h1></div>
+			<h2 class="subtitulos">Datos de la cuenta</h2>
+			<br>
+			<br>
+    </header> 
+	
+    <section>      
+	<div class="container-form">
+	
+		<form action="registrar.php" method="post">    <!--   // se cambia dependiendo de la pagina -->
+			<div class="campo">
+				<label for="text"> Usuario</label>
+				<input type="text" name="Usuario" class="form-imput" placeholder=" Usuario" required>
+			</div>
+			<div class="campo">
+				<label for="text">Contraseña</label>
+				<input type="password" name="Contraseña" maxlength="20" class="form-imput" placeholder="Contraseña" required>
+			</div>
+			<div class="campo">
+				<label for="text">Repetir Contraseña</label>
+				<input type="password" name="Repetir Contraseña" maxlength="20" class="form-imput" placeholder="Repetir Contraseña" required>
+			</div>
+			<div class="campo">
+				<label for="text">Email</label>
+				<input type="text" name="Email" maxlength="20" class="form-imput" placeholder="Email" required>
+
+<h2 class="subtitulos">Datos personales</h2>
+			</div>
+			<div class="campo">
+				<label for="text">Nombres</label>
+				<input type="text" name="nombres" maxlength="20" class="form-imput" placeholder="Nombres" required>
+			</div>
+			<div class="campo">
+				<label for="text">Apellidos</label>
+				<input type="text" name="apellidos" maxlength="20" class="form-imput" placeholder="Apellidos" required>
+			</div>
+			<div class="campo">
+				<label for="text">Sexo</label>
+				<select name="" id="sexo" id="id required">
+					<option value="">M</option>
+					<option value="">F</option>
+					
+				</select>
+			</div>
+						
+				<label for="text">Numero de Identidad:</label>
+				<input type="text" name="Numero de Identidad" maxlength="20" class="form-imput" placeholder="Numero de identidad" required>
+			</div>
+
+
+</div>
+<div>
+			<div class="campo">
+				<label for="text">Telefono</label>
+				<input type="text" name="Telefono" maxlength="20" class="form-imput" placeholder="Numero de Telefono" required>
+			</div>
+		</div>
+			<div class="campo">
+				<label for="text">Nacionalidad</label>
+				<select name="" id="city" id="id required">
+					<option value="">V</option>
+					<option value="">E</option>
+					
+				</select>
+		
+			</div>
+			<div class="campo text-center">
+				
+				<button type="button" class="button4" onclick="location.href='../index.html'"> Registrar</button>
+				<button type="reset" class="button5" onclick="location.href='register.html'"> Cancelar</button>
+			</div>
+		</form>
+	</div>
+    </section>
+
+    <footer>
+			<h3>© 2019 Task Your Life  </h3>
+	</footer>
+	</div>
+</main>
+  </body>  
+</html> 
+
+ 
